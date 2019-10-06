@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/devinchang/Code/315Server/src/utl/CurrentThread.h
+
+/home/devinchang/Code/315Server/src/utl/EventLoop.cpp
+EventLoop.h
+/home/devinchang/Code/315Server/src/utl/EventLoop.h
+poll.h
+-
+cassert
+-
+
+/home/devinchang/Code/315Server/src/utl/EventLoop.h
+Thread.h
+/home/devinchang/Code/315Server/src/utl/Thread.h
+CurrentThread.h
+/home/devinchang/Code/315Server/src/utl/CurrentThread.h
+
+/home/devinchang/Code/315Server/src/utl/Thread.h
+thread
+-
+memory
+-
+functional
+-
+

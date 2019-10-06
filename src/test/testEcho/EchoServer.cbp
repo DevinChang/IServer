@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="EchoServer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/devinchang/Code/315Server/src/test/testEcho"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testEcho/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testEcho/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testEcho/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testEcho/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/devinchang/Code/315Server/src/test/testEcho"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testEcho/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testEcho/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testEcho/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testEcho/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="echoServer">
+				<Option output="/home/devinchang/Code/315Server/src/test/testEcho/echoServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/devinchang/Code/315Server/src/test/testEcho"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testEcho/Makefile&quot;  VERBOSE=1 echoServer"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testEcho/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testEcho/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testEcho/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="echoServer/fast">
+				<Option output="/home/devinchang/Code/315Server/src/test/testEcho/echoServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/devinchang/Code/315Server/src/test/testEcho"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testEcho/Makefile&quot;  VERBOSE=1 echoServer/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testEcho/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testEcho/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testEcho/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/devinchang/Code/315Server/src/test/testEcho"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testEcho/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testEcho/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testEcho/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testEcho/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/devinchang/Code/315Server/src/test/testEcho/echoServer.cpp">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/test/testEcho/echoServer.h">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/test/testEcho/mainServer.cpp">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Acceptor.cpp">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Acceptor.h">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/AtomicIntegerT.h">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Buffer.cpp">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Buffer.h">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Channel.cpp">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Channel.h">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Condition.cpp">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Condition.h">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Connector.cpp">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Connector.h">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/CurrentThread.cpp">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/CurrentThread.h">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Date.cpp">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Date.h">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/EPoller.cpp">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/EPoller.h">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/EventLoop.cpp">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/EventLoop.h">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/EventLoopThread.cpp">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/EventLoopThread.h">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/EventLoopThreadPool.cpp">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/EventLoopThreadPool.h">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/InetAddress.cpp">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/InetAddress.h">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Log.cpp">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Log.h">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Mutex.cpp">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Mutex.h">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Socket.cpp">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Socket.h">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/TCPConnection.cpp">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/TCPConnection.h">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/TCPServer.cpp">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/TCPServer.h">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Thread.cpp">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Thread.h">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/TimeStamp.cpp">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/TimeStamp.h">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Timer.cpp">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Timer.h">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/TimerQueue.cpp">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/TimerQueue.h">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Timerld.cpp">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Timerld.h">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Util.cpp">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Util.h">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/utl.h">
+			<Option target="echoServer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/test/testEcho/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

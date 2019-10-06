@@ -1,0 +1,3 @@
+/home/devinchang/Code/315Server/src/test/testEcho/CMakeFiles/rebuild_cache.dir
+/home/devinchang/Code/315Server/src/test/testEcho/CMakeFiles/echoServer.dir
+/home/devinchang/Code/315Server/src/test/testEcho/CMakeFiles/edit_cache.dir

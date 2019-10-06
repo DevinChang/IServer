@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Connection"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/devinchang/Code/315Server/src/test/testConnector"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testConnector/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testConnector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testConnector/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testConnector/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/devinchang/Code/315Server/src/test/testConnector"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testConnector/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testConnector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testConnector/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testConnector/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/devinchang/Code/315Server/src/test/testConnector"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testConnector/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testConnector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testConnector/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testConnector/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testConnector">
+				<Option output="/home/devinchang/Code/315Server/src/test/testConnector/testConnector" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/devinchang/Code/315Server/src/test/testConnector"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testConnector/Makefile&quot;  VERBOSE=1 testConnector"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testConnector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testConnector/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testConnector/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testConnector/fast">
+				<Option output="/home/devinchang/Code/315Server/src/test/testConnector/testConnector" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/devinchang/Code/315Server/src/test/testConnector"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testConnector/Makefile&quot;  VERBOSE=1 testConnector/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testConnector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testConnector/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testConnector/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testClient">
+				<Option output="/home/devinchang/Code/315Server/src/test/testConnector/testClient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/devinchang/Code/315Server/src/test/testConnector"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testConnector/Makefile&quot;  VERBOSE=1 testClient"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testConnector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testConnector/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testConnector/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testClient/fast">
+				<Option output="/home/devinchang/Code/315Server/src/test/testConnector/testClient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/devinchang/Code/315Server/src/test/testConnector"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testConnector/Makefile&quot;  VERBOSE=1 testClient/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testConnector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testConnector/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/devinchang/Code/315Server/src/test/testConnector/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/devinchang/Code/315Server/src/test/testConnector/testClient.cpp">
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/test/testConnector/testConnector2.cpp">
+			<Option target="testConnector"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Acceptor.cpp">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Acceptor.h">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/AtomicIntegerT.h">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Buffer.cpp">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Buffer.h">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Channel.cpp">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Channel.h">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Condition.cpp">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Condition.h">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Connector.cpp">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Connector.h">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/CurrentThread.cpp">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/CurrentThread.h">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Date.cpp">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Date.h">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/EventLoop.cpp">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/EventLoop.h">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/EventLoopThread.cpp">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/EventLoopThread.h">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/EventLoopThreadPool.cpp">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/EventLoopThreadPool.h">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/InetAddress.cpp">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/InetAddress.h">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Mutex.cpp">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Mutex.h">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Poller.cpp">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Poller.h">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Socket.cpp">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Socket.h">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/TCPClient.cpp">
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/TCPClient.h">
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/TCPConnection.cpp">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/TCPConnection.h">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/TCPServer.cpp">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/TCPServer.h">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Thread.cpp">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Thread.h">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/TimeStamp.cpp">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/TimeStamp.h">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Timer.cpp">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Timer.h">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/TimerQueue.cpp">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/TimerQueue.h">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Timerld.cpp">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Timerld.h">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Util.cpp">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/Util.h">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/utl/utl.h">
+			<Option target="testConnector"/>
+			<Option target="testClient"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/315Server/src/test/testConnector/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

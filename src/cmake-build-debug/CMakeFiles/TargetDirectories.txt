@@ -1,0 +1,3 @@
+/home/devinchang/Code/315Server/src/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/devinchang/Code/315Server/src/cmake-build-debug/CMakeFiles/fileTransfer.dir
+/home/devinchang/Code/315Server/src/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -1,0 +1,4 @@
+/home/devinchang/Code/315Server/src/test/testConnector/CMakeFiles/rebuild_cache.dir
+/home/devinchang/Code/315Server/src/test/testConnector/CMakeFiles/edit_cache.dir
+/home/devinchang/Code/315Server/src/test/testConnector/CMakeFiles/testConnector.dir
+/home/devinchang/Code/315Server/src/test/testConnector/CMakeFiles/testClient.dir
