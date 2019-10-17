@@ -32,6 +32,7 @@ CMakeFiles/fileTransfer.dir/utl/Acceptor.cpp.o: ../utl/utl.h
 
 CMakeFiles/fileTransfer.dir/utl/Buffer.cpp.o: ../utl/Buffer.cpp
 CMakeFiles/fileTransfer.dir/utl/Buffer.cpp.o: ../utl/Buffer.h
+CMakeFiles/fileTransfer.dir/utl/Buffer.cpp.o: ../utl/CurrentThread.h
 CMakeFiles/fileTransfer.dir/utl/Buffer.cpp.o: ../utl/Util.h
 
 CMakeFiles/fileTransfer.dir/utl/Channel.cpp.o: ../utl/Channel.cpp
@@ -138,6 +139,7 @@ CMakeFiles/fileTransfer.dir/utl/Mutex.cpp.o: ../utl/Mutex.cpp
 CMakeFiles/fileTransfer.dir/utl/Mutex.cpp.o: ../utl/Mutex.h
 CMakeFiles/fileTransfer.dir/utl/Mutex.cpp.o: ../utl/Thread.h
 
+CMakeFiles/fileTransfer.dir/utl/Socket.cpp.o: ../utl/CurrentThread.h
 CMakeFiles/fileTransfer.dir/utl/Socket.cpp.o: ../utl/InetAddress.h
 CMakeFiles/fileTransfer.dir/utl/Socket.cpp.o: ../utl/Log.h
 CMakeFiles/fileTransfer.dir/utl/Socket.cpp.o: ../utl/Socket.cpp
@@ -189,6 +191,14 @@ CMakeFiles/fileTransfer.dir/utl/Thread.cpp.o: ../utl/TimeStamp.h
 CMakeFiles/fileTransfer.dir/utl/Thread.cpp.o: ../utl/Util.h
 CMakeFiles/fileTransfer.dir/utl/Thread.cpp.o: ../utl/utl.h
 
+CMakeFiles/fileTransfer.dir/utl/ThreadPool.cpp.o: ../utl/Condition.h
+CMakeFiles/fileTransfer.dir/utl/ThreadPool.cpp.o: ../utl/CurrentThread.h
+CMakeFiles/fileTransfer.dir/utl/ThreadPool.cpp.o: ../utl/Mutex.h
+CMakeFiles/fileTransfer.dir/utl/ThreadPool.cpp.o: ../utl/Thread.h
+CMakeFiles/fileTransfer.dir/utl/ThreadPool.cpp.o: ../utl/ThreadPool.cpp
+CMakeFiles/fileTransfer.dir/utl/ThreadPool.cpp.o: ../utl/ThreadPool.h
+CMakeFiles/fileTransfer.dir/utl/ThreadPool.cpp.o: ../utl/Util.h
+
 CMakeFiles/fileTransfer.dir/utl/TimeStamp.cpp.o: ../utl/TimeStamp.cpp
 CMakeFiles/fileTransfer.dir/utl/TimeStamp.cpp.o: ../utl/TimeStamp.h
 
@@ -220,6 +230,7 @@ CMakeFiles/fileTransfer.dir/utl/TimerQueue.cpp.o: ../utl/utl.h
 CMakeFiles/fileTransfer.dir/utl/Timerld.cpp.o: ../utl/Timerld.cpp
 CMakeFiles/fileTransfer.dir/utl/Timerld.cpp.o: ../utl/Timerld.h
 
+CMakeFiles/fileTransfer.dir/utl/Util.cpp.o: ../utl/CurrentThread.h
 CMakeFiles/fileTransfer.dir/utl/Util.cpp.o: ../utl/Util.cpp
 CMakeFiles/fileTransfer.dir/utl/Util.cpp.o: ../utl/Util.h
 

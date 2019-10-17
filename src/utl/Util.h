@@ -15,6 +15,9 @@
 
 #include <iosfwd>
 
+#include <exception>
+#include "CurrentThread.h"
+
 //#define CHECK_NOTNULL(val) CheckNotNull(__FILE__, __LINE__, "'"#val"'Must be non NUll", (val))
 //
 //template <typename T>
@@ -255,6 +258,22 @@ namespace strpiece{
         const char *ptr_;
         int length_;
     };
+}
+
+namespace ex{
+class Exception : public std::exception{
+public:
+    Exception(std::string what): message_(std::move(what)),
+                                 stack_(CurrentThread::stackTrace(false)){}
+    ~Exception() noexcept override = default;
+
+    const char *what() const noexcept override { return message_.c_str(); }
+
+    const char *stackTrace() const noexcept { return stack_.c_str(); }
+private:
+    std::string message_;
+    std::string stack_;
+};
 }
 
 #endif //INC_315SERVER_UTIL_H

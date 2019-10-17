@@ -5,6 +5,9 @@
 #ifndef INC_315SERVER_CURRENTTHREAD_H
 #define INC_315SERVER_CURRENTTHREAD_H
 
+#include <stdint.h>
+#include <string>
+
 
 namespace CurrentThread {
     extern __thread int t_cachedTid;
@@ -20,6 +23,18 @@ namespace CurrentThread {
         }
         return t_cachedTid;
     }
+
+    inline const char *tidString(){ return t_tidString; }
+
+    inline int tidStringLength(){ return t_tidStringLength; }
+
+    inline const char *name(){ return t_threadName; }
+
+    bool isMainThread();
+
+    void sleepUsec(int64_t usec);
+
+    std::string stackTrace(bool demangle);
 
 };
 

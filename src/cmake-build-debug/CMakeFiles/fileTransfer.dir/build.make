@@ -43,10 +43,10 @@ RM = /home/devinchang/Downloads/CLion-2019.1.2/clion-2019.1.2/bin/cmake/linux/bi
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/devinchang/Code/315Server/src
+CMAKE_SOURCE_DIR = /home/devinchang/Code/IServer/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/devinchang/Code/315Server/src/cmake-build-debug
+CMAKE_BINARY_DIR = /home/devinchang/Code/IServer/src/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/fileTransfer.dir/depend.make
@@ -59,315 +59,328 @@ include CMakeFiles/fileTransfer.dir/flags.make
 
 CMakeFiles/fileTransfer.dir/utl/Thread.cpp.o: CMakeFiles/fileTransfer.dir/flags.make
 CMakeFiles/fileTransfer.dir/utl/Thread.cpp.o: ../utl/Thread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/315Server/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/fileTransfer.dir/utl/Thread.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/Thread.cpp.o -c /home/devinchang/Code/315Server/src/utl/Thread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/IServer/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/fileTransfer.dir/utl/Thread.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/Thread.cpp.o -c /home/devinchang/Code/IServer/src/utl/Thread.cpp
 
 CMakeFiles/fileTransfer.dir/utl/Thread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fileTransfer.dir/utl/Thread.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/315Server/src/utl/Thread.cpp > CMakeFiles/fileTransfer.dir/utl/Thread.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/IServer/src/utl/Thread.cpp > CMakeFiles/fileTransfer.dir/utl/Thread.cpp.i
 
 CMakeFiles/fileTransfer.dir/utl/Thread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fileTransfer.dir/utl/Thread.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/315Server/src/utl/Thread.cpp -o CMakeFiles/fileTransfer.dir/utl/Thread.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/IServer/src/utl/Thread.cpp -o CMakeFiles/fileTransfer.dir/utl/Thread.cpp.s
 
 CMakeFiles/fileTransfer.dir/utl/CurrentThread.cpp.o: CMakeFiles/fileTransfer.dir/flags.make
 CMakeFiles/fileTransfer.dir/utl/CurrentThread.cpp.o: ../utl/CurrentThread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/315Server/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fileTransfer.dir/utl/CurrentThread.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/CurrentThread.cpp.o -c /home/devinchang/Code/315Server/src/utl/CurrentThread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/IServer/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fileTransfer.dir/utl/CurrentThread.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/CurrentThread.cpp.o -c /home/devinchang/Code/IServer/src/utl/CurrentThread.cpp
 
 CMakeFiles/fileTransfer.dir/utl/CurrentThread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fileTransfer.dir/utl/CurrentThread.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/315Server/src/utl/CurrentThread.cpp > CMakeFiles/fileTransfer.dir/utl/CurrentThread.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/IServer/src/utl/CurrentThread.cpp > CMakeFiles/fileTransfer.dir/utl/CurrentThread.cpp.i
 
 CMakeFiles/fileTransfer.dir/utl/CurrentThread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fileTransfer.dir/utl/CurrentThread.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/315Server/src/utl/CurrentThread.cpp -o CMakeFiles/fileTransfer.dir/utl/CurrentThread.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/IServer/src/utl/CurrentThread.cpp -o CMakeFiles/fileTransfer.dir/utl/CurrentThread.cpp.s
 
 CMakeFiles/fileTransfer.dir/utl/EventLoop.cpp.o: CMakeFiles/fileTransfer.dir/flags.make
 CMakeFiles/fileTransfer.dir/utl/EventLoop.cpp.o: ../utl/EventLoop.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/315Server/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/fileTransfer.dir/utl/EventLoop.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/EventLoop.cpp.o -c /home/devinchang/Code/315Server/src/utl/EventLoop.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/IServer/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/fileTransfer.dir/utl/EventLoop.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/EventLoop.cpp.o -c /home/devinchang/Code/IServer/src/utl/EventLoop.cpp
 
 CMakeFiles/fileTransfer.dir/utl/EventLoop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fileTransfer.dir/utl/EventLoop.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/315Server/src/utl/EventLoop.cpp > CMakeFiles/fileTransfer.dir/utl/EventLoop.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/IServer/src/utl/EventLoop.cpp > CMakeFiles/fileTransfer.dir/utl/EventLoop.cpp.i
 
 CMakeFiles/fileTransfer.dir/utl/EventLoop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fileTransfer.dir/utl/EventLoop.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/315Server/src/utl/EventLoop.cpp -o CMakeFiles/fileTransfer.dir/utl/EventLoop.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/IServer/src/utl/EventLoop.cpp -o CMakeFiles/fileTransfer.dir/utl/EventLoop.cpp.s
 
 CMakeFiles/fileTransfer.dir/utl/Channel.cpp.o: CMakeFiles/fileTransfer.dir/flags.make
 CMakeFiles/fileTransfer.dir/utl/Channel.cpp.o: ../utl/Channel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/315Server/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/fileTransfer.dir/utl/Channel.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/Channel.cpp.o -c /home/devinchang/Code/315Server/src/utl/Channel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/IServer/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/fileTransfer.dir/utl/Channel.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/Channel.cpp.o -c /home/devinchang/Code/IServer/src/utl/Channel.cpp
 
 CMakeFiles/fileTransfer.dir/utl/Channel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fileTransfer.dir/utl/Channel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/315Server/src/utl/Channel.cpp > CMakeFiles/fileTransfer.dir/utl/Channel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/IServer/src/utl/Channel.cpp > CMakeFiles/fileTransfer.dir/utl/Channel.cpp.i
 
 CMakeFiles/fileTransfer.dir/utl/Channel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fileTransfer.dir/utl/Channel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/315Server/src/utl/Channel.cpp -o CMakeFiles/fileTransfer.dir/utl/Channel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/IServer/src/utl/Channel.cpp -o CMakeFiles/fileTransfer.dir/utl/Channel.cpp.s
 
 CMakeFiles/fileTransfer.dir/utl/EPoller.cpp.o: CMakeFiles/fileTransfer.dir/flags.make
 CMakeFiles/fileTransfer.dir/utl/EPoller.cpp.o: ../utl/EPoller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/315Server/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/fileTransfer.dir/utl/EPoller.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/EPoller.cpp.o -c /home/devinchang/Code/315Server/src/utl/EPoller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/IServer/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/fileTransfer.dir/utl/EPoller.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/EPoller.cpp.o -c /home/devinchang/Code/IServer/src/utl/EPoller.cpp
 
 CMakeFiles/fileTransfer.dir/utl/EPoller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fileTransfer.dir/utl/EPoller.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/315Server/src/utl/EPoller.cpp > CMakeFiles/fileTransfer.dir/utl/EPoller.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/IServer/src/utl/EPoller.cpp > CMakeFiles/fileTransfer.dir/utl/EPoller.cpp.i
 
 CMakeFiles/fileTransfer.dir/utl/EPoller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fileTransfer.dir/utl/EPoller.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/315Server/src/utl/EPoller.cpp -o CMakeFiles/fileTransfer.dir/utl/EPoller.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/IServer/src/utl/EPoller.cpp -o CMakeFiles/fileTransfer.dir/utl/EPoller.cpp.s
 
 CMakeFiles/fileTransfer.dir/utl/TimeStamp.cpp.o: CMakeFiles/fileTransfer.dir/flags.make
 CMakeFiles/fileTransfer.dir/utl/TimeStamp.cpp.o: ../utl/TimeStamp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/315Server/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/fileTransfer.dir/utl/TimeStamp.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/TimeStamp.cpp.o -c /home/devinchang/Code/315Server/src/utl/TimeStamp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/IServer/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/fileTransfer.dir/utl/TimeStamp.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/TimeStamp.cpp.o -c /home/devinchang/Code/IServer/src/utl/TimeStamp.cpp
 
 CMakeFiles/fileTransfer.dir/utl/TimeStamp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fileTransfer.dir/utl/TimeStamp.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/315Server/src/utl/TimeStamp.cpp > CMakeFiles/fileTransfer.dir/utl/TimeStamp.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/IServer/src/utl/TimeStamp.cpp > CMakeFiles/fileTransfer.dir/utl/TimeStamp.cpp.i
 
 CMakeFiles/fileTransfer.dir/utl/TimeStamp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fileTransfer.dir/utl/TimeStamp.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/315Server/src/utl/TimeStamp.cpp -o CMakeFiles/fileTransfer.dir/utl/TimeStamp.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/IServer/src/utl/TimeStamp.cpp -o CMakeFiles/fileTransfer.dir/utl/TimeStamp.cpp.s
 
 CMakeFiles/fileTransfer.dir/utl/Timer.cpp.o: CMakeFiles/fileTransfer.dir/flags.make
 CMakeFiles/fileTransfer.dir/utl/Timer.cpp.o: ../utl/Timer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/315Server/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/fileTransfer.dir/utl/Timer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/Timer.cpp.o -c /home/devinchang/Code/315Server/src/utl/Timer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/IServer/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/fileTransfer.dir/utl/Timer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/Timer.cpp.o -c /home/devinchang/Code/IServer/src/utl/Timer.cpp
 
 CMakeFiles/fileTransfer.dir/utl/Timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fileTransfer.dir/utl/Timer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/315Server/src/utl/Timer.cpp > CMakeFiles/fileTransfer.dir/utl/Timer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/IServer/src/utl/Timer.cpp > CMakeFiles/fileTransfer.dir/utl/Timer.cpp.i
 
 CMakeFiles/fileTransfer.dir/utl/Timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fileTransfer.dir/utl/Timer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/315Server/src/utl/Timer.cpp -o CMakeFiles/fileTransfer.dir/utl/Timer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/IServer/src/utl/Timer.cpp -o CMakeFiles/fileTransfer.dir/utl/Timer.cpp.s
 
 CMakeFiles/fileTransfer.dir/utl/Timerld.cpp.o: CMakeFiles/fileTransfer.dir/flags.make
 CMakeFiles/fileTransfer.dir/utl/Timerld.cpp.o: ../utl/Timerld.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/315Server/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/fileTransfer.dir/utl/Timerld.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/Timerld.cpp.o -c /home/devinchang/Code/315Server/src/utl/Timerld.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/IServer/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/fileTransfer.dir/utl/Timerld.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/Timerld.cpp.o -c /home/devinchang/Code/IServer/src/utl/Timerld.cpp
 
 CMakeFiles/fileTransfer.dir/utl/Timerld.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fileTransfer.dir/utl/Timerld.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/315Server/src/utl/Timerld.cpp > CMakeFiles/fileTransfer.dir/utl/Timerld.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/IServer/src/utl/Timerld.cpp > CMakeFiles/fileTransfer.dir/utl/Timerld.cpp.i
 
 CMakeFiles/fileTransfer.dir/utl/Timerld.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fileTransfer.dir/utl/Timerld.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/315Server/src/utl/Timerld.cpp -o CMakeFiles/fileTransfer.dir/utl/Timerld.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/IServer/src/utl/Timerld.cpp -o CMakeFiles/fileTransfer.dir/utl/Timerld.cpp.s
 
 CMakeFiles/fileTransfer.dir/utl/TimerQueue.cpp.o: CMakeFiles/fileTransfer.dir/flags.make
 CMakeFiles/fileTransfer.dir/utl/TimerQueue.cpp.o: ../utl/TimerQueue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/315Server/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/fileTransfer.dir/utl/TimerQueue.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/TimerQueue.cpp.o -c /home/devinchang/Code/315Server/src/utl/TimerQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/IServer/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/fileTransfer.dir/utl/TimerQueue.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/TimerQueue.cpp.o -c /home/devinchang/Code/IServer/src/utl/TimerQueue.cpp
 
 CMakeFiles/fileTransfer.dir/utl/TimerQueue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fileTransfer.dir/utl/TimerQueue.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/315Server/src/utl/TimerQueue.cpp > CMakeFiles/fileTransfer.dir/utl/TimerQueue.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/IServer/src/utl/TimerQueue.cpp > CMakeFiles/fileTransfer.dir/utl/TimerQueue.cpp.i
 
 CMakeFiles/fileTransfer.dir/utl/TimerQueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fileTransfer.dir/utl/TimerQueue.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/315Server/src/utl/TimerQueue.cpp -o CMakeFiles/fileTransfer.dir/utl/TimerQueue.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/IServer/src/utl/TimerQueue.cpp -o CMakeFiles/fileTransfer.dir/utl/TimerQueue.cpp.s
 
 CMakeFiles/fileTransfer.dir/utl/Date.cpp.o: CMakeFiles/fileTransfer.dir/flags.make
 CMakeFiles/fileTransfer.dir/utl/Date.cpp.o: ../utl/Date.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/315Server/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/fileTransfer.dir/utl/Date.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/Date.cpp.o -c /home/devinchang/Code/315Server/src/utl/Date.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/IServer/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/fileTransfer.dir/utl/Date.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/Date.cpp.o -c /home/devinchang/Code/IServer/src/utl/Date.cpp
 
 CMakeFiles/fileTransfer.dir/utl/Date.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fileTransfer.dir/utl/Date.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/315Server/src/utl/Date.cpp > CMakeFiles/fileTransfer.dir/utl/Date.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/IServer/src/utl/Date.cpp > CMakeFiles/fileTransfer.dir/utl/Date.cpp.i
 
 CMakeFiles/fileTransfer.dir/utl/Date.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fileTransfer.dir/utl/Date.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/315Server/src/utl/Date.cpp -o CMakeFiles/fileTransfer.dir/utl/Date.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/IServer/src/utl/Date.cpp -o CMakeFiles/fileTransfer.dir/utl/Date.cpp.s
 
 CMakeFiles/fileTransfer.dir/utl/Mutex.cpp.o: CMakeFiles/fileTransfer.dir/flags.make
 CMakeFiles/fileTransfer.dir/utl/Mutex.cpp.o: ../utl/Mutex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/315Server/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/fileTransfer.dir/utl/Mutex.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/Mutex.cpp.o -c /home/devinchang/Code/315Server/src/utl/Mutex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/IServer/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/fileTransfer.dir/utl/Mutex.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/Mutex.cpp.o -c /home/devinchang/Code/IServer/src/utl/Mutex.cpp
 
 CMakeFiles/fileTransfer.dir/utl/Mutex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fileTransfer.dir/utl/Mutex.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/315Server/src/utl/Mutex.cpp > CMakeFiles/fileTransfer.dir/utl/Mutex.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/IServer/src/utl/Mutex.cpp > CMakeFiles/fileTransfer.dir/utl/Mutex.cpp.i
 
 CMakeFiles/fileTransfer.dir/utl/Mutex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fileTransfer.dir/utl/Mutex.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/315Server/src/utl/Mutex.cpp -o CMakeFiles/fileTransfer.dir/utl/Mutex.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/IServer/src/utl/Mutex.cpp -o CMakeFiles/fileTransfer.dir/utl/Mutex.cpp.s
 
 CMakeFiles/fileTransfer.dir/utl/Buffer.cpp.o: CMakeFiles/fileTransfer.dir/flags.make
 CMakeFiles/fileTransfer.dir/utl/Buffer.cpp.o: ../utl/Buffer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/315Server/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/fileTransfer.dir/utl/Buffer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/Buffer.cpp.o -c /home/devinchang/Code/315Server/src/utl/Buffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/IServer/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/fileTransfer.dir/utl/Buffer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/Buffer.cpp.o -c /home/devinchang/Code/IServer/src/utl/Buffer.cpp
 
 CMakeFiles/fileTransfer.dir/utl/Buffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fileTransfer.dir/utl/Buffer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/315Server/src/utl/Buffer.cpp > CMakeFiles/fileTransfer.dir/utl/Buffer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/IServer/src/utl/Buffer.cpp > CMakeFiles/fileTransfer.dir/utl/Buffer.cpp.i
 
 CMakeFiles/fileTransfer.dir/utl/Buffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fileTransfer.dir/utl/Buffer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/315Server/src/utl/Buffer.cpp -o CMakeFiles/fileTransfer.dir/utl/Buffer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/IServer/src/utl/Buffer.cpp -o CMakeFiles/fileTransfer.dir/utl/Buffer.cpp.s
 
 CMakeFiles/fileTransfer.dir/utl/InetAddress.cpp.o: CMakeFiles/fileTransfer.dir/flags.make
 CMakeFiles/fileTransfer.dir/utl/InetAddress.cpp.o: ../utl/InetAddress.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/315Server/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/fileTransfer.dir/utl/InetAddress.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/InetAddress.cpp.o -c /home/devinchang/Code/315Server/src/utl/InetAddress.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/IServer/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/fileTransfer.dir/utl/InetAddress.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/InetAddress.cpp.o -c /home/devinchang/Code/IServer/src/utl/InetAddress.cpp
 
 CMakeFiles/fileTransfer.dir/utl/InetAddress.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fileTransfer.dir/utl/InetAddress.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/315Server/src/utl/InetAddress.cpp > CMakeFiles/fileTransfer.dir/utl/InetAddress.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/IServer/src/utl/InetAddress.cpp > CMakeFiles/fileTransfer.dir/utl/InetAddress.cpp.i
 
 CMakeFiles/fileTransfer.dir/utl/InetAddress.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fileTransfer.dir/utl/InetAddress.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/315Server/src/utl/InetAddress.cpp -o CMakeFiles/fileTransfer.dir/utl/InetAddress.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/IServer/src/utl/InetAddress.cpp -o CMakeFiles/fileTransfer.dir/utl/InetAddress.cpp.s
 
 CMakeFiles/fileTransfer.dir/utl/TCPConnection.cpp.o: CMakeFiles/fileTransfer.dir/flags.make
 CMakeFiles/fileTransfer.dir/utl/TCPConnection.cpp.o: ../utl/TCPConnection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/315Server/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/fileTransfer.dir/utl/TCPConnection.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/TCPConnection.cpp.o -c /home/devinchang/Code/315Server/src/utl/TCPConnection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/IServer/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/fileTransfer.dir/utl/TCPConnection.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/TCPConnection.cpp.o -c /home/devinchang/Code/IServer/src/utl/TCPConnection.cpp
 
 CMakeFiles/fileTransfer.dir/utl/TCPConnection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fileTransfer.dir/utl/TCPConnection.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/315Server/src/utl/TCPConnection.cpp > CMakeFiles/fileTransfer.dir/utl/TCPConnection.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/IServer/src/utl/TCPConnection.cpp > CMakeFiles/fileTransfer.dir/utl/TCPConnection.cpp.i
 
 CMakeFiles/fileTransfer.dir/utl/TCPConnection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fileTransfer.dir/utl/TCPConnection.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/315Server/src/utl/TCPConnection.cpp -o CMakeFiles/fileTransfer.dir/utl/TCPConnection.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/IServer/src/utl/TCPConnection.cpp -o CMakeFiles/fileTransfer.dir/utl/TCPConnection.cpp.s
 
 CMakeFiles/fileTransfer.dir/utl/TCPServer.cpp.o: CMakeFiles/fileTransfer.dir/flags.make
 CMakeFiles/fileTransfer.dir/utl/TCPServer.cpp.o: ../utl/TCPServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/315Server/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/fileTransfer.dir/utl/TCPServer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/TCPServer.cpp.o -c /home/devinchang/Code/315Server/src/utl/TCPServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/IServer/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/fileTransfer.dir/utl/TCPServer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/TCPServer.cpp.o -c /home/devinchang/Code/IServer/src/utl/TCPServer.cpp
 
 CMakeFiles/fileTransfer.dir/utl/TCPServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fileTransfer.dir/utl/TCPServer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/315Server/src/utl/TCPServer.cpp > CMakeFiles/fileTransfer.dir/utl/TCPServer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/IServer/src/utl/TCPServer.cpp > CMakeFiles/fileTransfer.dir/utl/TCPServer.cpp.i
 
 CMakeFiles/fileTransfer.dir/utl/TCPServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fileTransfer.dir/utl/TCPServer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/315Server/src/utl/TCPServer.cpp -o CMakeFiles/fileTransfer.dir/utl/TCPServer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/IServer/src/utl/TCPServer.cpp -o CMakeFiles/fileTransfer.dir/utl/TCPServer.cpp.s
 
 CMakeFiles/fileTransfer.dir/utl/Acceptor.cpp.o: CMakeFiles/fileTransfer.dir/flags.make
 CMakeFiles/fileTransfer.dir/utl/Acceptor.cpp.o: ../utl/Acceptor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/315Server/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/fileTransfer.dir/utl/Acceptor.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/Acceptor.cpp.o -c /home/devinchang/Code/315Server/src/utl/Acceptor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/IServer/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/fileTransfer.dir/utl/Acceptor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/Acceptor.cpp.o -c /home/devinchang/Code/IServer/src/utl/Acceptor.cpp
 
 CMakeFiles/fileTransfer.dir/utl/Acceptor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fileTransfer.dir/utl/Acceptor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/315Server/src/utl/Acceptor.cpp > CMakeFiles/fileTransfer.dir/utl/Acceptor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/IServer/src/utl/Acceptor.cpp > CMakeFiles/fileTransfer.dir/utl/Acceptor.cpp.i
 
 CMakeFiles/fileTransfer.dir/utl/Acceptor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fileTransfer.dir/utl/Acceptor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/315Server/src/utl/Acceptor.cpp -o CMakeFiles/fileTransfer.dir/utl/Acceptor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/IServer/src/utl/Acceptor.cpp -o CMakeFiles/fileTransfer.dir/utl/Acceptor.cpp.s
 
 CMakeFiles/fileTransfer.dir/utl/Connector.cpp.o: CMakeFiles/fileTransfer.dir/flags.make
 CMakeFiles/fileTransfer.dir/utl/Connector.cpp.o: ../utl/Connector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/315Server/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/fileTransfer.dir/utl/Connector.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/Connector.cpp.o -c /home/devinchang/Code/315Server/src/utl/Connector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/IServer/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/fileTransfer.dir/utl/Connector.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/Connector.cpp.o -c /home/devinchang/Code/IServer/src/utl/Connector.cpp
 
 CMakeFiles/fileTransfer.dir/utl/Connector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fileTransfer.dir/utl/Connector.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/315Server/src/utl/Connector.cpp > CMakeFiles/fileTransfer.dir/utl/Connector.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/IServer/src/utl/Connector.cpp > CMakeFiles/fileTransfer.dir/utl/Connector.cpp.i
 
 CMakeFiles/fileTransfer.dir/utl/Connector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fileTransfer.dir/utl/Connector.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/315Server/src/utl/Connector.cpp -o CMakeFiles/fileTransfer.dir/utl/Connector.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/IServer/src/utl/Connector.cpp -o CMakeFiles/fileTransfer.dir/utl/Connector.cpp.s
 
 CMakeFiles/fileTransfer.dir/utl/Condition.cpp.o: CMakeFiles/fileTransfer.dir/flags.make
 CMakeFiles/fileTransfer.dir/utl/Condition.cpp.o: ../utl/Condition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/315Server/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/fileTransfer.dir/utl/Condition.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/Condition.cpp.o -c /home/devinchang/Code/315Server/src/utl/Condition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/IServer/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/fileTransfer.dir/utl/Condition.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/Condition.cpp.o -c /home/devinchang/Code/IServer/src/utl/Condition.cpp
 
 CMakeFiles/fileTransfer.dir/utl/Condition.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fileTransfer.dir/utl/Condition.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/315Server/src/utl/Condition.cpp > CMakeFiles/fileTransfer.dir/utl/Condition.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/IServer/src/utl/Condition.cpp > CMakeFiles/fileTransfer.dir/utl/Condition.cpp.i
 
 CMakeFiles/fileTransfer.dir/utl/Condition.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fileTransfer.dir/utl/Condition.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/315Server/src/utl/Condition.cpp -o CMakeFiles/fileTransfer.dir/utl/Condition.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/IServer/src/utl/Condition.cpp -o CMakeFiles/fileTransfer.dir/utl/Condition.cpp.s
 
 CMakeFiles/fileTransfer.dir/utl/EventLoopThread.cpp.o: CMakeFiles/fileTransfer.dir/flags.make
 CMakeFiles/fileTransfer.dir/utl/EventLoopThread.cpp.o: ../utl/EventLoopThread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/315Server/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/fileTransfer.dir/utl/EventLoopThread.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/EventLoopThread.cpp.o -c /home/devinchang/Code/315Server/src/utl/EventLoopThread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/IServer/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/fileTransfer.dir/utl/EventLoopThread.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/EventLoopThread.cpp.o -c /home/devinchang/Code/IServer/src/utl/EventLoopThread.cpp
 
 CMakeFiles/fileTransfer.dir/utl/EventLoopThread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fileTransfer.dir/utl/EventLoopThread.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/315Server/src/utl/EventLoopThread.cpp > CMakeFiles/fileTransfer.dir/utl/EventLoopThread.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/IServer/src/utl/EventLoopThread.cpp > CMakeFiles/fileTransfer.dir/utl/EventLoopThread.cpp.i
 
 CMakeFiles/fileTransfer.dir/utl/EventLoopThread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fileTransfer.dir/utl/EventLoopThread.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/315Server/src/utl/EventLoopThread.cpp -o CMakeFiles/fileTransfer.dir/utl/EventLoopThread.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/IServer/src/utl/EventLoopThread.cpp -o CMakeFiles/fileTransfer.dir/utl/EventLoopThread.cpp.s
 
 CMakeFiles/fileTransfer.dir/utl/EventLoopThreadPool.cpp.o: CMakeFiles/fileTransfer.dir/flags.make
 CMakeFiles/fileTransfer.dir/utl/EventLoopThreadPool.cpp.o: ../utl/EventLoopThreadPool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/315Server/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/fileTransfer.dir/utl/EventLoopThreadPool.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/EventLoopThreadPool.cpp.o -c /home/devinchang/Code/315Server/src/utl/EventLoopThreadPool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/IServer/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/fileTransfer.dir/utl/EventLoopThreadPool.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/EventLoopThreadPool.cpp.o -c /home/devinchang/Code/IServer/src/utl/EventLoopThreadPool.cpp
 
 CMakeFiles/fileTransfer.dir/utl/EventLoopThreadPool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fileTransfer.dir/utl/EventLoopThreadPool.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/315Server/src/utl/EventLoopThreadPool.cpp > CMakeFiles/fileTransfer.dir/utl/EventLoopThreadPool.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/IServer/src/utl/EventLoopThreadPool.cpp > CMakeFiles/fileTransfer.dir/utl/EventLoopThreadPool.cpp.i
 
 CMakeFiles/fileTransfer.dir/utl/EventLoopThreadPool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fileTransfer.dir/utl/EventLoopThreadPool.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/315Server/src/utl/EventLoopThreadPool.cpp -o CMakeFiles/fileTransfer.dir/utl/EventLoopThreadPool.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/IServer/src/utl/EventLoopThreadPool.cpp -o CMakeFiles/fileTransfer.dir/utl/EventLoopThreadPool.cpp.s
 
 CMakeFiles/fileTransfer.dir/utl/Util.cpp.o: CMakeFiles/fileTransfer.dir/flags.make
 CMakeFiles/fileTransfer.dir/utl/Util.cpp.o: ../utl/Util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/315Server/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/fileTransfer.dir/utl/Util.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/Util.cpp.o -c /home/devinchang/Code/315Server/src/utl/Util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/IServer/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/fileTransfer.dir/utl/Util.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/Util.cpp.o -c /home/devinchang/Code/IServer/src/utl/Util.cpp
 
 CMakeFiles/fileTransfer.dir/utl/Util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fileTransfer.dir/utl/Util.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/315Server/src/utl/Util.cpp > CMakeFiles/fileTransfer.dir/utl/Util.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/IServer/src/utl/Util.cpp > CMakeFiles/fileTransfer.dir/utl/Util.cpp.i
 
 CMakeFiles/fileTransfer.dir/utl/Util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fileTransfer.dir/utl/Util.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/315Server/src/utl/Util.cpp -o CMakeFiles/fileTransfer.dir/utl/Util.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/IServer/src/utl/Util.cpp -o CMakeFiles/fileTransfer.dir/utl/Util.cpp.s
 
 CMakeFiles/fileTransfer.dir/utl/Socket.cpp.o: CMakeFiles/fileTransfer.dir/flags.make
 CMakeFiles/fileTransfer.dir/utl/Socket.cpp.o: ../utl/Socket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/315Server/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/fileTransfer.dir/utl/Socket.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/Socket.cpp.o -c /home/devinchang/Code/315Server/src/utl/Socket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/IServer/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/fileTransfer.dir/utl/Socket.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/Socket.cpp.o -c /home/devinchang/Code/IServer/src/utl/Socket.cpp
 
 CMakeFiles/fileTransfer.dir/utl/Socket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fileTransfer.dir/utl/Socket.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/315Server/src/utl/Socket.cpp > CMakeFiles/fileTransfer.dir/utl/Socket.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/IServer/src/utl/Socket.cpp > CMakeFiles/fileTransfer.dir/utl/Socket.cpp.i
 
 CMakeFiles/fileTransfer.dir/utl/Socket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fileTransfer.dir/utl/Socket.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/315Server/src/utl/Socket.cpp -o CMakeFiles/fileTransfer.dir/utl/Socket.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/IServer/src/utl/Socket.cpp -o CMakeFiles/fileTransfer.dir/utl/Socket.cpp.s
 
 CMakeFiles/fileTransfer.dir/utl/Log.cpp.o: CMakeFiles/fileTransfer.dir/flags.make
 CMakeFiles/fileTransfer.dir/utl/Log.cpp.o: ../utl/Log.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/315Server/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/fileTransfer.dir/utl/Log.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/Log.cpp.o -c /home/devinchang/Code/315Server/src/utl/Log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/IServer/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/fileTransfer.dir/utl/Log.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/Log.cpp.o -c /home/devinchang/Code/IServer/src/utl/Log.cpp
 
 CMakeFiles/fileTransfer.dir/utl/Log.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fileTransfer.dir/utl/Log.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/315Server/src/utl/Log.cpp > CMakeFiles/fileTransfer.dir/utl/Log.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/IServer/src/utl/Log.cpp > CMakeFiles/fileTransfer.dir/utl/Log.cpp.i
 
 CMakeFiles/fileTransfer.dir/utl/Log.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fileTransfer.dir/utl/Log.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/315Server/src/utl/Log.cpp -o CMakeFiles/fileTransfer.dir/utl/Log.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/IServer/src/utl/Log.cpp -o CMakeFiles/fileTransfer.dir/utl/Log.cpp.s
+
+CMakeFiles/fileTransfer.dir/utl/ThreadPool.cpp.o: CMakeFiles/fileTransfer.dir/flags.make
+CMakeFiles/fileTransfer.dir/utl/ThreadPool.cpp.o: ../utl/ThreadPool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/IServer/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/fileTransfer.dir/utl/ThreadPool.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/utl/ThreadPool.cpp.o -c /home/devinchang/Code/IServer/src/utl/ThreadPool.cpp
+
+CMakeFiles/fileTransfer.dir/utl/ThreadPool.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fileTransfer.dir/utl/ThreadPool.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/IServer/src/utl/ThreadPool.cpp > CMakeFiles/fileTransfer.dir/utl/ThreadPool.cpp.i
+
+CMakeFiles/fileTransfer.dir/utl/ThreadPool.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fileTransfer.dir/utl/ThreadPool.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/IServer/src/utl/ThreadPool.cpp -o CMakeFiles/fileTransfer.dir/utl/ThreadPool.cpp.s
 
 CMakeFiles/fileTransfer.dir/fileTransfer.cpp.o: CMakeFiles/fileTransfer.dir/flags.make
 CMakeFiles/fileTransfer.dir/fileTransfer.cpp.o: ../fileTransfer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/315Server/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/fileTransfer.dir/fileTransfer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/fileTransfer.cpp.o -c /home/devinchang/Code/315Server/src/fileTransfer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devinchang/Code/IServer/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/fileTransfer.dir/fileTransfer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fileTransfer.dir/fileTransfer.cpp.o -c /home/devinchang/Code/IServer/src/fileTransfer.cpp
 
 CMakeFiles/fileTransfer.dir/fileTransfer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fileTransfer.dir/fileTransfer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/315Server/src/fileTransfer.cpp > CMakeFiles/fileTransfer.dir/fileTransfer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devinchang/Code/IServer/src/fileTransfer.cpp > CMakeFiles/fileTransfer.dir/fileTransfer.cpp.i
 
 CMakeFiles/fileTransfer.dir/fileTransfer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fileTransfer.dir/fileTransfer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/315Server/src/fileTransfer.cpp -o CMakeFiles/fileTransfer.dir/fileTransfer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devinchang/Code/IServer/src/fileTransfer.cpp -o CMakeFiles/fileTransfer.dir/fileTransfer.cpp.s
 
 # Object files for target fileTransfer
 fileTransfer_OBJECTS = \
@@ -394,6 +407,7 @@ fileTransfer_OBJECTS = \
 "CMakeFiles/fileTransfer.dir/utl/Util.cpp.o" \
 "CMakeFiles/fileTransfer.dir/utl/Socket.cpp.o" \
 "CMakeFiles/fileTransfer.dir/utl/Log.cpp.o" \
+"CMakeFiles/fileTransfer.dir/utl/ThreadPool.cpp.o" \
 "CMakeFiles/fileTransfer.dir/fileTransfer.cpp.o"
 
 # External object files for target fileTransfer
@@ -422,10 +436,11 @@ fileTransfer: CMakeFiles/fileTransfer.dir/utl/EventLoopThreadPool.cpp.o
 fileTransfer: CMakeFiles/fileTransfer.dir/utl/Util.cpp.o
 fileTransfer: CMakeFiles/fileTransfer.dir/utl/Socket.cpp.o
 fileTransfer: CMakeFiles/fileTransfer.dir/utl/Log.cpp.o
+fileTransfer: CMakeFiles/fileTransfer.dir/utl/ThreadPool.cpp.o
 fileTransfer: CMakeFiles/fileTransfer.dir/fileTransfer.cpp.o
 fileTransfer: CMakeFiles/fileTransfer.dir/build.make
 fileTransfer: CMakeFiles/fileTransfer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/devinchang/Code/315Server/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable fileTransfer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/devinchang/Code/IServer/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable fileTransfer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fileTransfer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -438,6 +453,6 @@ CMakeFiles/fileTransfer.dir/clean:
 .PHONY : CMakeFiles/fileTransfer.dir/clean
 
 CMakeFiles/fileTransfer.dir/depend:
-	cd /home/devinchang/Code/315Server/src/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/devinchang/Code/315Server/src /home/devinchang/Code/315Server/src /home/devinchang/Code/315Server/src/cmake-build-debug /home/devinchang/Code/315Server/src/cmake-build-debug /home/devinchang/Code/315Server/src/cmake-build-debug/CMakeFiles/fileTransfer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/devinchang/Code/IServer/src/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/devinchang/Code/IServer/src /home/devinchang/Code/IServer/src /home/devinchang/Code/IServer/src/cmake-build-debug /home/devinchang/Code/IServer/src/cmake-build-debug /home/devinchang/Code/IServer/src/cmake-build-debug/CMakeFiles/fileTransfer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/fileTransfer.dir/depend
 

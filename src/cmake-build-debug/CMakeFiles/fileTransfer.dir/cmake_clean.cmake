@@ -18,6 +18,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/fileTransfer.dir/utl/TCPConnection.cpp.o"
   "CMakeFiles/fileTransfer.dir/utl/TCPServer.cpp.o"
   "CMakeFiles/fileTransfer.dir/utl/Thread.cpp.o"
+  "CMakeFiles/fileTransfer.dir/utl/ThreadPool.cpp.o"
   "CMakeFiles/fileTransfer.dir/utl/TimeStamp.cpp.o"
   "CMakeFiles/fileTransfer.dir/utl/Timer.cpp.o"
   "CMakeFiles/fileTransfer.dir/utl/TimerQueue.cpp.o"

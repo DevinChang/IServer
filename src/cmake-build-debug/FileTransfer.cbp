@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/devinchang/Code/315Server/src/cmake-build-debug"/>
+				<Option working_dir="/home/devinchang/Code/IServer/src/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/315Server/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/315Server/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/315Server/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/315Server/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/IServer/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/IServer/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/IServer/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/IServer/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/devinchang/Code/315Server/src/cmake-build-debug"/>
+				<Option working_dir="/home/devinchang/Code/IServer/src/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/315Server/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/315Server/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/315Server/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/315Server/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/IServer/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/IServer/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/IServer/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/IServer/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="fileTransfer">
-				<Option output="/home/devinchang/Code/315Server/src/cmake-build-debug/fileTransfer" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/devinchang/Code/315Server/src/cmake-build-debug"/>
+				<Option output="/home/devinchang/Code/IServer/src/cmake-build-debug/fileTransfer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/devinchang/Code/IServer/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -44,15 +44,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/315Server/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 fileTransfer"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/315Server/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/315Server/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/315Server/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/IServer/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 fileTransfer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/IServer/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/IServer/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/IServer/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="fileTransfer/fast">
-				<Option output="/home/devinchang/Code/315Server/src/cmake-build-debug/fileTransfer" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/devinchang/Code/315Server/src/cmake-build-debug"/>
+				<Option output="/home/devinchang/Code/IServer/src/cmake-build-debug/fileTransfer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/devinchang/Code/IServer/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -67,174 +67,180 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/315Server/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 fileTransfer/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/315Server/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/315Server/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/315Server/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/IServer/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 fileTransfer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/IServer/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/IServer/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/IServer/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/devinchang/Code/315Server/src/cmake-build-debug"/>
+				<Option working_dir="/home/devinchang/Code/IServer/src/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/315Server/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/315Server/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/315Server/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/315Server/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/IServer/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/IServer/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/IServer/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/IServer/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/devinchang/Code/315Server/src/fileTransfer.cpp">
+		<Unit filename="/home/devinchang/Code/IServer/src/fileTransfer.cpp">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/Acceptor.cpp">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/Acceptor.cpp">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/Acceptor.h">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/Acceptor.h">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/Any.h">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/Any.h">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/AtomicIntegerT.h">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/AtomicIntegerT.h">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/Buffer.cpp">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/Buffer.cpp">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/Buffer.h">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/Buffer.h">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/Channel.cpp">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/Channel.cpp">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/Channel.h">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/Channel.h">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/Condition.cpp">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/Condition.cpp">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/Condition.h">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/Condition.h">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/Connector.cpp">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/Connector.cpp">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/Connector.h">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/Connector.h">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/CurrentThread.cpp">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/CurrentThread.cpp">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/CurrentThread.h">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/CurrentThread.h">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/Date.cpp">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/Date.cpp">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/Date.h">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/Date.h">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/EPoller.cpp">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/EPoller.cpp">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/EPoller.h">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/EPoller.h">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/EventLoop.cpp">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/EventLoop.cpp">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/EventLoop.h">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/EventLoop.h">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/EventLoopThread.cpp">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/EventLoopThread.cpp">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/EventLoopThread.h">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/EventLoopThread.h">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/EventLoopThreadPool.cpp">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/EventLoopThreadPool.cpp">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/EventLoopThreadPool.h">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/EventLoopThreadPool.h">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/InetAddress.cpp">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/InetAddress.cpp">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/InetAddress.h">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/InetAddress.h">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/Log.cpp">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/Log.cpp">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/Log.h">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/Log.h">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/Mutex.cpp">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/Mutex.cpp">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/Mutex.h">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/Mutex.h">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/Socket.cpp">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/Socket.cpp">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/Socket.h">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/Socket.h">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/TCPConnection.cpp">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/TCPConnection.cpp">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/TCPConnection.h">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/TCPConnection.h">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/TCPServer.cpp">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/TCPServer.cpp">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/TCPServer.h">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/TCPServer.h">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/Thread.cpp">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/Thread.cpp">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/Thread.h">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/Thread.h">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/TimeStamp.cpp">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/ThreadPool.cpp">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/TimeStamp.h">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/ThreadPool.h">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/Timer.cpp">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/TimeStamp.cpp">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/Timer.h">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/TimeStamp.h">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/TimerQueue.cpp">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/Timer.cpp">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/TimerQueue.h">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/Timer.h">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/Timerld.cpp">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/TimerQueue.cpp">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/Timerld.h">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/TimerQueue.h">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/Util.cpp">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/Timerld.cpp">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/Util.h">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/Timerld.h">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/utl/utl.h">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/Util.cpp">
 			<Option target="fileTransfer"/>
 		</Unit>
-		<Unit filename="/home/devinchang/Code/315Server/src/CMakeLists.txt">
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/Util.h">
+			<Option target="fileTransfer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/IServer/src/utl/utl.h">
+			<Option target="fileTransfer"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/IServer/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

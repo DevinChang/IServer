@@ -44,10 +44,10 @@ RM = /home/devinchang/Downloads/CLion-2019.1.2/clion-2019.1.2/bin/cmake/linux/bi
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/devinchang/Code/315Server/src
+CMAKE_SOURCE_DIR = /home/devinchang/Code/IServer/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/devinchang/Code/315Server/src/cmake-build-debug
+CMAKE_BINARY_DIR = /home/devinchang/Code/IServer/src/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ preinstall:
 CMakeFiles/fileTransfer.dir/all:
 	$(MAKE) -f CMakeFiles/fileTransfer.dir/build.make CMakeFiles/fileTransfer.dir/depend
 	$(MAKE) -f CMakeFiles/fileTransfer.dir/build.make CMakeFiles/fileTransfer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/devinchang/Code/315Server/src/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25 "Built target fileTransfer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/devinchang/Code/IServer/src/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26 "Built target fileTransfer"
 .PHONY : CMakeFiles/fileTransfer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/fileTransfer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/devinchang/Code/315Server/src/cmake-build-debug/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/devinchang/Code/IServer/src/cmake-build-debug/CMakeFiles 26
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/fileTransfer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/devinchang/Code/315Server/src/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/devinchang/Code/IServer/src/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/fileTransfer.dir/rule
 
 # Convenience name for target.
